@@ -4,8 +4,15 @@ function Redirecionar() {
     
     var valorSelecionadoCrud = selectCrud.options[selectCrud.selectedIndex].value;
     var valorSelecionadoAreas = selectAreas.options[selectAreas.selectedIndex].value;
-    
+
     var linkUrl = valorSelecionadoCrud + valorSelecionadoAreas;
 
-    document.getElementById("redirecionar").href = valorSelecionadoCrud+"/"+linkUrl+".php";
+    document.getElementById("redirecionar").href = valorSelecionadoCrud + "/" + linkUrl + ".php";
+
+    $('.carousel').carousel({
+        interval: 20
+    })
+
+
+
 }
