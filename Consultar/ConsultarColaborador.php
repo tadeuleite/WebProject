@@ -36,7 +36,8 @@ if (isset($_POST["enviarForm"])) {
     $result = mysqli_query($conn, $sql);
     if (mysqli_num_rows($result) > 0) {
         while ($row = mysqli_fetch_assoc($result)) {
-            echo $row['nome'];
+            echo "Nome: ".$row['nome']."<br>";
+            echo"<br>";
         }
     }else{
         echo("não encontrado");

@@ -7,12 +7,10 @@ function Redirecionar() {
 
     var linkUrl = valorSelecionadoCrud + valorSelecionadoAreas;
 
-    document.getElementById("redirecionar").href = valorSelecionadoCrud + "/" + linkUrl + ".php";
-
+    
     $('.carousel').carousel({
         interval: 20
     })
-
-
-
+    
+    document.getElementById("redirecionar").href = valorSelecionadoCrud + "/" + linkUrl + ".php";
 }

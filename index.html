@@ -23,22 +23,22 @@
     <h1 class="display-1">Selecione o que você deseja fazer</h1>
 
     <div class="input-group mb-3">
-        <select class="custom-select" id="inputGroupSelect02">
+        <select class="custom-select" id="selectCrud">
             <option selected>Selecione...</option>
-            <option value="1">Cadastrar</option>
-            <option value="2">Alterar</option>
-            <option value="3">Deletar</option>
-            <option value="3">Consultar</option>
+            <option value="Cadastrar">Cadastrar</option>
+            <option value="Alterar">Alterar</option>
+            <option value="Alterar">Deletar</option>
+            <option value="Consultar">Consultar</option>
         </select>
 
         <div class="input-group mb-3">
-            <select class="custom-select" id="inputGroupSelect02">
+            <select class="custom-select" id="selectAreas">
                 <option selected>Selecione...</option>
-                <option value="1">Colaborador</option>
-                <option value="2">Areas Concentração</option>
-                <option value="3">Soft Skills</option>
-                <option value="3">Hard Skills</option>
-                <option value="3">Graduações</option>
+                <option value="Colaborador">Colaborador</option>
+                <option value="AreasConcentracao">Areas Concentração</option>
+                <option value="SoftSkills">Soft Skills</option>
+                <option value="Hard Skills">Hard Skills</option>
+                <option value="Graduacoes">Graduações</option>
             </select>
 
 
@@ -49,12 +49,11 @@
     </div>
     <!--css do botão e da pagina toda fodase-->
     <div>
-        <button style="width: 100%;" id=redirecionar type="button" class="btn btn-secondary btn-lg"
-            onclick="Redirecionar()">Ir</button></div>
-
-
-
+        
+        <a id="redirecionar"><button style="width: 100%;" type="button" class="btn btn-secondary btn-lg"
+            onclick="Redirecionar()">Ir</button>
+        </a>
+    </div>
 </body>
-
 
 </html>
