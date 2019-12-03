@@ -7,5 +7,5 @@ function Redirecionar() {
     
     var linkUrl = valorSelecionadoCrud + valorSelecionadoAreas;
 
-    document.getElementById("redirecionar").href = valorSelecionadoCrud+"/"+linkUrl;
+    document.getElementById("redirecionar").href = valorSelecionadoCrud+"/"+linkUrl+".php";
 }
